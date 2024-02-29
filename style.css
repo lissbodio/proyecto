@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.menu,
+.cart {
+    display: none;
+    margin-top: 20px;
+}
+
+.cake-item {
+    margin-bottom: 20px;
+}
+
+.cake-item img {
+    width: 10px;
+    height: auto;
+}
+
+.add-to-cart {
+    margin-left: 10px;
+}
+
+#btn-purchase {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#btn-purchase:hover {
+    background-color: #cc5500;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Tortas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Tienda de Tortas</h1>
+        <nav>
+            <ul>
+                <li><a href="#" id="btn-home">Home</a></li>
+                <li><a href="#" id="btn-menu">Menú</a></li>
+                <li><a href="#" id="btn-cart">Carrito</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <div id="menu" class="menu">
+            <h2>Menú y Precios</h2>
+            <div class="cake-item">
+                <img src="C:\Users\Mateo\Desktop\proyecto\img\chocolate.jpg" , width="200px" alt="Torta de Chocolate">
+                <p>Torta de Chocolate - $3500 <button class="add-to-cart" data-item="Torta de Chocolate">Agregar al Carrito</button></p>
+            </div>
+            <div class="cake-item">
+                <img src="C:\Users\Mateo\Desktop\proyecto\img\Torta_Frutilla.jpg" , width="200px" alt="Torta de Frutilla">
+                <p>Torta de Fresa - $1200 <button class="add-to-cart" data-item="Torta de Fresa">Agregar al Carrito</button></p>
+            </div>
+            <div class="cake-item">
+                <img src="C:\Users\Mateo\Desktop\proyecto\img\Torta_Vainilla.jpg" , width="200px" alt="Torta de Vainilla">
+                <p>Torta de Vainilla - $1500 <button class="add-to-cart" data-item="Torta de Vainilla">Agregar al Carrito</button></p>
+            </div>
+            <div class="cake-item">
+                <img src="C:\Users\Mateo\Desktop\proyecto\img\Torta_Zanahorias.jpg" , width="200px" alt="Torta de Zanahoria">
+                <p>Torta de Zanahoria - $2500 <button class="add-to-cart" data-item="Torta de Zanahoria">Agregar al Carrito</button></p>
+            </div>
+        </div>
+
+        <div id="cart" class="cart">
+            <h2>Carrito</h2>
+            <ul id="cart-list">
+                <!-- Contenido del carrito se agregará dinámicamente aquí -->
+            </ul>
+            <p id="total">Total: $<span id="cart-total">0</span></p>
+            <button id="btn-purchase">Comprar</button>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
